@@ -13,6 +13,7 @@ module.exports = class extends Generator {
             this.answers = answres
         })
     }
+    
     writing () {
         // 把每一个文件都通过模板转换到目标路径
         const templates = [
